@@ -1,0 +1,32 @@
+[
+  {
+    "default_value": "John Doe",
+    "value": "",
+    "validation": "^[a-zA-Z\\s]+$",
+    "type": "text"
+  },
+  {
+    "default_value": "user@example.com",
+    "value": "",
+    "validation": "^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$",
+    "type": "text"
+  },
+  {
+    "default_value": 18,
+    "value": null,
+    "min_value": 0,
+    "max_value": 120,
+    "type": "number"
+  },
+  {
+    "default_value": "USA",
+    "value": "",
+    "options": ["USA", "Canada", "UK", "Australia", "Other"],
+    "type": "dropdown"
+  },
+  {
+    "default_value": false,
+    "value": false,
+    "type": "boolean"
+  }
+]
